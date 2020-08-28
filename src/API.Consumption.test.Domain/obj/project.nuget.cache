@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OCRPHWunHKsrXT7CmRkrg+pru/9Gd5lqoi5O8bOFk7C0qndP9JCotRlIO8NJvbLDEbIgZbu8bVnURJ140AXmGw==",
+  "success": true,
+  "projectFilePath": "C:\\WebMotors-test\\API.Consumption.Test\\src\\API.Consumption.test.Domain\\API.Consumption.test.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gustavo Simioni\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
