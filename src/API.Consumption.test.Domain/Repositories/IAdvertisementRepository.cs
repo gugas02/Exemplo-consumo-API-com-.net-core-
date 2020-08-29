@@ -10,9 +10,9 @@ namespace API.Consumption.test.Domain.Repositories
 {
     public interface IAdvertisementRepository
     {
-        public Task Insert(Advertisement employee);
-        public Task Update(Advertisement employee);
-        public Task Delete(Advertisement employee);
+        public Task<bool> Insert(Advertisement advertisement);
+        public Task<bool> Update(Advertisement advertisement);
+        public Task<bool> Delete(Advertisement advertisement);
         public Task<Advertisement> Get(int id);
         public Task<PagedList<Advertisement>> Get(AdvertisementQuery id);
         Task<List<string>> GetNamesAsync();

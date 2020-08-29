@@ -45,7 +45,11 @@ namespace API.Consumption.test.Domain.Handlers
             if (advertisement.Invalid)
                 return new GenericCommandResult(false, "Comando inválido", advertisement.Notifications);
 
-            await _repository.Update(advertisement);
+            var inserted = await _repository.Update(advertisement);
+
+            if(!inserted)
+                return new GenericCommandResult(false, "Comando inválido",
+                    NotificationHelpers.BuildNotifications(new Notification("body", "Erro ao inserir o registro, contato o suporte!")));
 
             return new GenericCommandResult(
                     true,
@@ -68,7 +72,12 @@ namespace API.Consumption.test.Domain.Handlers
             if (user.Invalid)
                 return new GenericCommandResult(false, "Comando inválido", user.Notifications);
 
-            await _repository.Insert(user);
+            var inserted = await _repository.Insert(user);
+
+            if (!inserted)
+                return new GenericCommandResult(false, "Comando inválido",
+                    NotificationHelpers.BuildNotifications(new Notification("body", "Erro ao inserir o registro, contato o suporte!")));
+
             return new GenericCommandResult(true, "Anúncio Cadastrado com sucesso", null);
         }
 
@@ -86,8 +95,12 @@ namespace API.Consumption.test.Domain.Handlers
             if (advertisement == null)
                 return new GenericCommandResult(false, "Comando inválido",
                     NotificationHelpers.BuildNotifications(new Notification("body", "Anúncio não encontrado")));
-            
-            await _repository.Delete(advertisement);
+
+            var inserted = await _repository.Delete(advertisement);
+
+            if (!inserted)
+                return new GenericCommandResult(false, "Comando inválido",
+                    NotificationHelpers.BuildNotifications(new Notification("body", "Erro ao inserir o registro, contato o suporte!")));
 
             return new GenericCommandResult(
                     true,

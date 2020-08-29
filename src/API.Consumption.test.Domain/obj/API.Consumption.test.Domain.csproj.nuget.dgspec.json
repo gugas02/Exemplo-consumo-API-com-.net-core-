@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WebMotors-test\\API.Consumption.Test\\src\\API.Consumption.test.Domain\\API.Consumption.test.Domain.csproj": {}
+    "C:\\WebMotors-test\\API.Consumption.Test\\src\\API.Consumption.test.Domain\\API.Consumption.Test.Domain.csproj": {}
   },
   "projects": {
-    "C:\\WebMotors-test\\API.Consumption.Test\\src\\API.Consumption.test.Domain\\API.Consumption.test.Domain.csproj": {
+    "C:\\WebMotors-test\\API.Consumption.Test\\src\\API.Consumption.test.Domain\\API.Consumption.Test.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WebMotors-test\\API.Consumption.Test\\src\\API.Consumption.test.Domain\\API.Consumption.test.Domain.csproj",
-        "projectName": "API.Consumption.test.Domain",
-        "projectPath": "C:\\WebMotors-test\\API.Consumption.Test\\src\\API.Consumption.test.Domain\\API.Consumption.test.Domain.csproj",
+        "projectUniqueName": "C:\\WebMotors-test\\API.Consumption.Test\\src\\API.Consumption.test.Domain\\API.Consumption.Test.Domain.csproj",
+        "projectName": "API.Consumption.Test.Domain",
+        "projectPath": "C:\\WebMotors-test\\API.Consumption.Test\\src\\API.Consumption.test.Domain\\API.Consumption.Test.Domain.csproj",
         "packagesPath": "C:\\Users\\Gustavo Simioni\\.nuget\\packages\\",
         "outputPath": "C:\\WebMotors-test\\API.Consumption.Test\\src\\API.Consumption.test.Domain\\obj\\",
         "projectStyle": "PackageReference",

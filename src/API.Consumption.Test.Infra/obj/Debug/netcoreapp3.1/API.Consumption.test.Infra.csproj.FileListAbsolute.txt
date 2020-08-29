@@ -1,0 +1,6 @@
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\bin\Debug\netcoreapp3.1\API.Consumption.test.Infra.deps.json
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\bin\Debug\netcoreapp3.1\API.Consumption.test.Infra.dll
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\obj\Debug\netcoreapp3.1\API.Consumption.test.Infra.csprojAssemblyReference.cache
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\obj\Debug\netcoreapp3.1\API.Consumption.test.Infra.AssemblyInfoInputs.cache
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\obj\Debug\netcoreapp3.1\API.Consumption.test.Infra.AssemblyInfo.cs
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\bin\Debug\netcoreapp3.1\API.Consumption.Test.Domain.dll

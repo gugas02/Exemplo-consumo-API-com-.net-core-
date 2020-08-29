@@ -8,9 +8,9 @@ namespace API.Consumption.test.Domain.Repositories
 {
     public interface  IApiRepository
     {
-        Task<GetBrandsQueryResult> GetBrands(string pageId, string querystring);
-        Task<GetModelQueryResult> GetModel(string pageId, string querystring);
-        Task<GetVehiclesQueryResult> GetVehicles(string type, string querystring);
-        Task<GetVersionQueryResult> GetVersion(string type, string querystring);
+        Task<List<GetBrandsQueryResult>> GetBrands();
+        Task<List<GetModelQueryResult>> GetModel(string brandId);
+        Task<List<GetVehiclesQueryResult>> GetVehicles(string modelId, string querystring);
+        Task<List<GetVersionQueryResult>> GetVersion(string page);
     }
 }

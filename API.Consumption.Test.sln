@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Consumption.test.Domain", "src\API.Consumption.test.Domain\API.Consumption.test.Domain.csproj", "{C132ADDA-E080-43AD-91F8-B73A996AB7C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Consumption.Test.Domain", "src\API.Consumption.test.Domain\API.Consumption.Test.Domain.csproj", "{C132ADDA-E080-43AD-91F8-B73A996AB7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Consumption.Test.Infra", "src\API.Consumption.test.Infra\API.Consumption.Test.Infra.csproj", "{89E46D4D-5FFA-4297-B1F7-6730147F0B75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C132ADDA-E080-43AD-91F8-B73A996AB7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C132ADDA-E080-43AD-91F8-B73A996AB7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C132ADDA-E080-43AD-91F8-B73A996AB7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E46D4D-5FFA-4297-B1F7-6730147F0B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E46D4D-5FFA-4297-B1F7-6730147F0B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E46D4D-5FFA-4297-B1F7-6730147F0B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E46D4D-5FFA-4297-B1F7-6730147F0B75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
