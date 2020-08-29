@@ -48,14 +48,9 @@ namespace API.Consumption.Test.Infra.ExternalServices.Services.Api
             }
         }
 
-        public async Task<List<GetVehiclesQueryResult>> GetVehicles(string modelId, string querystring)
+        public async Task<List<GetVehiclesQueryResult>> GetVehicles(string page)
         {
-            var requestUri = $"{BaseUri}/Version?ModelID={modelId}";
-
-            if (!string.IsNullOrEmpty(querystring))
-            {
-                requestUri += querystring;
-            }
+            var requestUri = $"{BaseUri}/Vehicles?Page={page}";
 
             var response = await _factory.Get(Service, requestUri, Token);
 
@@ -69,9 +64,9 @@ namespace API.Consumption.Test.Infra.ExternalServices.Services.Api
             }
         }
 
-        public async Task<List<GetVersionQueryResult>> GetVersion(string page)
+        public async Task<List<GetVersionQueryResult>> GetVersion(string modelId)
         {
-            var requestUri = $"{BaseUri}/Vehicles?Page={page}";
+            var requestUri = $"{BaseUri}/Version?ModelID={modelId}";
 
             var response = await _factory.Get(Service, requestUri, Token);
 

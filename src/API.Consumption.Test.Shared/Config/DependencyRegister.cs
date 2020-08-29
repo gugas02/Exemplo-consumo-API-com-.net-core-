@@ -7,6 +7,7 @@ using API.Consumption.Test.Infra.ExternalServices.Services.Api;
 using API.Consumption.test.Domain.Command.Advertisement;
 using Teste.Domain.Handlers;
 using API.Consumption.test.Domain.Handlers;
+using API.Consumption.Test.Infra.ExternalServices;
 
 namespace API.Consumption.Test.Shared.Config
 {
@@ -33,6 +34,7 @@ namespace API.Consumption.Test.Shared.Config
             #endregion
 
             #region Services
+            services.AddScoped<HttpRequestFactory>();
             services.AddScoped<IApiRepository, ApiService>();
             #endregion
         }

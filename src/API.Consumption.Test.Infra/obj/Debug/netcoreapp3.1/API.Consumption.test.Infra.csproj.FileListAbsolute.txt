@@ -4,3 +4,9 @@ C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\obj\Debug\
 C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\obj\Debug\netcoreapp3.1\API.Consumption.test.Infra.AssemblyInfoInputs.cache
 C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\obj\Debug\netcoreapp3.1\API.Consumption.test.Infra.AssemblyInfo.cs
 C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\bin\Debug\netcoreapp3.1\API.Consumption.Test.Domain.dll
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\bin\Debug\netcoreapp3.1\API.Consumption.Test.Infra.pdb
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\bin\Debug\netcoreapp3.1\API.Consumption.Test.Domain.pdb
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\obj\Debug\netcoreapp3.1\API.Consumption.Test.Infra.csproj.CoreCompileInputs.cache
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\obj\Debug\netcoreapp3.1\API.Consumption.Test.Infra.csproj.CopyComplete
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\obj\Debug\netcoreapp3.1\API.Consumption.Test.Infra.dll
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Infra\obj\Debug\netcoreapp3.1\API.Consumption.Test.Infra.pdb

@@ -3,3 +3,7 @@ C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Domain\bin\Debug
 C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Domain\obj\Debug\netcoreapp3.1\API.Consumption.test.Domain.csprojAssemblyReference.cache
 C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Domain\obj\Debug\netcoreapp3.1\API.Consumption.test.Domain.AssemblyInfoInputs.cache
 C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Domain\obj\Debug\netcoreapp3.1\API.Consumption.test.Domain.AssemblyInfo.cs
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Domain\bin\Debug\netcoreapp3.1\API.Consumption.Test.Domain.pdb
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Domain\obj\Debug\netcoreapp3.1\API.Consumption.Test.Domain.csproj.CoreCompileInputs.cache
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Domain\obj\Debug\netcoreapp3.1\API.Consumption.Test.Domain.dll
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.test.Domain\obj\Debug\netcoreapp3.1\API.Consumption.Test.Domain.pdb

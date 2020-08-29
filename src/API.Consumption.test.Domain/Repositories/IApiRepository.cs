@@ -10,7 +10,7 @@ namespace API.Consumption.test.Domain.Repositories
     {
         Task<List<GetBrandsQueryResult>> GetBrands();
         Task<List<GetModelQueryResult>> GetModel(string brandId);
-        Task<List<GetVehiclesQueryResult>> GetVehicles(string modelId, string querystring);
-        Task<List<GetVersionQueryResult>> GetVersion(string page);
+        Task<List<GetVehiclesQueryResult>> GetVehicles(string page);
+        Task<List<GetVersionQueryResult>> GetVersion(string modelId);
     }
 }

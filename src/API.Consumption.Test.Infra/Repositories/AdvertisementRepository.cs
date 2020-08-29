@@ -91,7 +91,7 @@ namespace API.Consumption.test.Infra.Repositories
             var query = @"INSERT INTO [dbo].[tb_AnuncioWebmotors]
                                (marca ,modelo ,versao ,ano ,quilometragem ,observacao )
                          VALUES
-                               (@Id, @Brand, @Model, @Version, @Year, @Km, @Observation)";
+                               (@Brand, @Model, @Version, @Year, @Km, @Observation)";
             try
             {
                 await
@@ -108,7 +108,7 @@ namespace API.Consumption.test.Infra.Repositories
                         });
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -117,7 +117,7 @@ namespace API.Consumption.test.Infra.Repositories
         public async Task<bool> Update(Advertisement advertisement)
         {
             var query = @"UPDATE [dbo].[tb_AnuncioWebmotors]
-                           SET ID = @Id
+                           SET [ID] = @Id
                             ,marca = @Brand
                             ,modelo = @Model
                             ,versao = @Version
@@ -143,7 +143,7 @@ namespace API.Consumption.test.Infra.Repositories
                          });
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }

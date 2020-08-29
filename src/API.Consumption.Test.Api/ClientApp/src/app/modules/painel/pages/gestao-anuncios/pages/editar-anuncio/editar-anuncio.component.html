@@ -1,0 +1,76 @@
+<div class="row align-items-center mb-4">
+  <div class="col-12">
+    <h1 class="display-3 mb-0">Novo Usuário</h1>
+  </div>
+</div>
+
+<div class="card blue mb-2">
+  <div class="card-header blue">
+    <h5 class="my-0 display-4">Formulário de cadastro</h5>
+  </div>
+  <form [formGroup]="form">
+    <div class="card-body">
+      <div class="row">
+        <div class="form-group col-md-3 col-12">
+          <label for="brand"><strong>Marca</strong><span class="text-danger ml-1">*</span></label>
+          <select class="form-control form-control-lg" formControlName="brand"
+                  [ngClass]="applyCssError('brand')" id="brand" (change)="obterModelos($event.target.value)">
+            <option>Selecionar</option>
+            <option *ngFor="let item of marcaOptions" value={{item.id}}> {{item.name}} </option>
+          </select>
+          <small class="form-text text-danger" *ngIf="verifyInvalidAndTouched('brand')">
+            Este campo não é
+            válido
+          </small>
+        </div>
+        <div class="form-group col-md-3 col-12">
+          <label for="model"><strong>Modelo</strong><span class="text-danger ml-1">*</span></label>
+          <select class="form-control form-control-lg" formControlName="model"
+                  [ngClass]="applyCssError('model')" id="model"  (change)="obterVersao($event.target.value)">
+            <option>Selecionar</option>
+            <option *ngFor="let item of modeloOptions" value={{item.id}}> {{item.name}} </option>
+          </select>
+          <small class="form-text text-danger" *ngIf="verifyInvalidAndTouched('model')">
+            Este campo não é
+            válido
+          </small>
+        </div>
+        <div class="form-group col-md-3 col-12">
+          <label for="version"><strong>Versão</strong><span class="text-danger ml-1">*</span></label>
+          <select class="form-control form-control-lg" formControlName="version"
+                  [ngClass]="applyCssError('version')" id="version">
+            <option>Selecionar</option>
+            <option *ngFor="let item of versaoOptions" value={{item.id}}> {{item.name}} </option>
+          </select>
+          <small class="form-text text-danger" *ngIf="verifyInvalidAndTouched('version')">
+            Este campo não é
+            válido
+          </small>
+        </div>
+        <div class="form-group col-md-3 col-12">
+          <label for="year"><strong>Ano</strong><span class="text-danger ml-1">*</span></label>
+          <input type="number" class="form-control form-control-lg" formControlName="year"
+                 [ngClass]="applyCssError('year')" id="year">
+          <small class="form-text text-danger" *ngIf="verifyInvalidAndTouched('year')">Este campo não é válido</small>
+        </div>
+        <div class="form-group col-md-3 col-12">
+          <label for="km"><strong>Quilometragem</strong></label>
+          <input type="number" class="form-control form-control-lg" formControlName="km"
+                 [ngClass]="applyCssError('km')" id="km">
+          <small class="form-text text-danger" *ngIf="verifyInvalidAndTouched('km')">Este campo não é válido</small>
+        </div>
+        <div class="form-group col-md-3 col-12">
+          <label for="observation"><strong>Observações</strong></label>
+          <input type="text" class="form-control form-control-lg" formControlName="observation"
+                 [ngClass]="applyCssError('observation')" id="observation">
+          <small class="form-text text-danger" *ngIf="verifyInvalidAndTouched('observation')">Este campo não é válido</small>
+        </div>
+      </div>
+    </div>
+    <div class="card-footer blue text-right w-100">
+      <a class="btn btn-outline-primary btn-lg btn-text-lg"
+        [routerLink]="['/painel/gestao-funcionarios/funcionarios']">Cancelar</a>
+      <button type="button" class="btn btn-primary btn-lg btn-text-lg ml-2" (click)="onSubmit()">Editar</button>
+    </div>
+  </form>
+</div>

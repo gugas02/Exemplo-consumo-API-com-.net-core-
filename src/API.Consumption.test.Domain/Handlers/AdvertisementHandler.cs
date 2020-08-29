@@ -4,10 +4,6 @@ using API.Consumption.test.Domain.Entity;
 using API.Consumption.test.Domain.Repositories;
 using API.Consumption.test.Domain.Shared;
 using Flunt.Notifications;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Teste.Domain.Handlers;
 
