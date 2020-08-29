@@ -117,8 +117,7 @@ namespace API.Consumption.test.Infra.Repositories
         public async Task<bool> Update(Advertisement advertisement)
         {
             var query = @"UPDATE [dbo].[tb_AnuncioWebmotors]
-                           SET [ID] = @Id
-                            ,marca = @Brand
+                           SET marca = @Brand
                             ,modelo = @Model
                             ,versao = @Version
                             ,ano = @Year
