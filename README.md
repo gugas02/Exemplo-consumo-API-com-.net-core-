@@ -26,7 +26,7 @@ DDD</br>
 CQRS</br>
 </br>
 * Script para criação da tabela na pasta "Scripts DB" dentro da camada de infra.</br>
-** Lembrar de alterar a conection string dentro da camada de api para que a aplicação ache o banco.</br>
-*** Rodar npm install na pasta ./src/API.Consumption.Test.Api/ClientApp/</br>
-**** Para startar a aplicação apenas rode a camada de API, ela ira subir tanto a api quanto o frontend em angular 8.</br>
-***** Rota para Swagger (Documentação Api) '/swagger/index.html'</br>
+* Lembrar de alterar a conection string dentro da camada de api para que a aplicação ache o banco.</br>
+* Rodar npm install na pasta ./src/API.Consumption.Test.Api/ClientApp/</br>
+* Para startar a aplicação apenas rode a camada de API, ela ira subir tanto a api quanto o frontend em angular 8.</br>
+* Rota para Swagger (Documentação Api) '/swagger/index.html'</br>
