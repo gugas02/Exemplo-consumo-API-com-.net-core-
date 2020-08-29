@@ -4,7 +4,7 @@ using System.Text;
 
 namespace API.Consumption.test.Domain.Queries.Output.Api
 {
-    class GetModelQueryResult
+    public class GetModelQueryResult
     {
         public int MakeID { get; set; }
         public int ID { get; set; }

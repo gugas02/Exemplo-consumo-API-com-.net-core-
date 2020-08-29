@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace API.Consumption.test.Domain.Command
+﻿namespace API.Consumption.test.Domain.Command
 {
     public class GenericCommandResult : ICommandResult
     {

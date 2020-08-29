@@ -1,0 +1,5 @@
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.Test.Shared\bin\Debug\netcoreapp3.1\API.Consumption.Test.Shared.deps.json
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.Test.Shared\bin\Debug\netcoreapp3.1\API.Consumption.Test.Shared.dll
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.Test.Shared\obj\Debug\netcoreapp3.1\API.Consumption.Test.Shared.csprojAssemblyReference.cache
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.Test.Shared\obj\Debug\netcoreapp3.1\API.Consumption.Test.Shared.AssemblyInfoInputs.cache
+C:\WebMotors-test\API.Consumption.Test\src\API.Consumption.Test.Shared\obj\Debug\netcoreapp3.1\API.Consumption.Test.Shared.AssemblyInfo.cs
