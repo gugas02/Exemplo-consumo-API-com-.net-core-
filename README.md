@@ -1,4 +1,4 @@
-# Cadastro Anúncios
+# Cadastro de Anúncios
 
 Sistema para cadastro de anúncios Implementado com .net e angular, em arquitetura ddd com cqrs.</br>
 </br>
